@@ -151,115 +151,115 @@
     </div>
 
     <script>
-        // 数据源 (共18个产品)
+        // 数据源 (文件名后缀已修改为 .png)
         const products = [
             // === 原有产品 ===
             {
                 name: "Blackmores 葡萄糖胺硫酸盐",
-                filename: "92ac2aa20c44c5fa0dca7025a34fb0d.jpg",
+                filename: "92ac2aa20c44c5fa0dca7025a34fb0d.png",
                 title: "Blackmores 葡萄糖胺硫酸盐 1500 (180片)",
                 desc: "【每日一片 关节健康】\n\nBlackmores 每日一片装葡萄糖胺硫酸盐含有 1500毫克 经临床验证的氨基葡萄糖硫酸盐 (GlucosaGreen®)。\n\n主要功效：\n• 缓解轻度骨关节炎症状\n• 减轻轻微关节疼痛\n• 促进健康的关节软骨生成\n• 缓解轻度关节僵硬，保持关节活动自如\n\n规格：180片/瓶，香草味片剂。"
             },
             {
                 name: "Goat Soap 澳洲羊奶皂",
-                filename: "d9e33ada15941809bc4e0b2e7d8f58d.jpg",
+                filename: "d9e33ada15941809bc4e0b2e7d8f58d.png",
                 title: "Goat Soap 澳洲羊奶皂 - Pure & Natural",
                 desc: "【温和呵护敏感肌肤】\n\n采用纯天然羊奶制作，pH值最接近人体皮肤，温和不刺激。含有甜杏仁油等天然成分。\n\n• 适用人群：特别适合干燥、瘙痒或敏感肌肤，全家人适用。\n• 功效：温和清洁，滋润肌肤，令肌肤柔软健康。\n• 规格：100克/块。\n• 可选配方：原味、柠檬香桃木、燕麦、麦卢卡蜂蜜、摩洛哥坚果油、椰子油。"
             },
             {
                 name: "Nature's Way 儿童维他命",
-                filename: "903719d572484dcfc111892091f320d.jpg",
+                filename: "903719d572484dcfc111892091f320d.png",
                 title: "Nature's Way Kids Smart - Attention & Concentration",
                 desc: "【注意力与专注力配方】\n\n采用 Lutemax™ 2020 科学配方，富含叶黄素和玉米黄素。\n\n主要功效：\n1. 提高注意力持续时间，增强专注力和集中力\n2. 促进记忆力、学习能力和认知表现\n3. 维护眼部健康，缓解眼部疲劳\n\n规格：40粒软糖，橙子口味，99%无糖，适合4岁以上儿童。"
             },
             {
                 name: "Swisse 护肝排毒片",
-                filename: "c4c4ff425bd82340a35ce83f8148fa2.jpg",
+                filename: "c4c4ff425bd82340a35ce83f8148fa2.png",
                 title: "Swisse Ultiboost Liver Detox (护肝排毒片)",
                 desc: "【肝脏健康与排毒】\n\n融合了水飞蓟、洋蓟和姜黄，基于科学证据和传统草药智慧研制。\n\n• 水飞蓟：维持肝脏健康，促进自然清洁和排毒。\n• 姜黄：缓解消化不良（腹痛、腹胀），富含抗氧化剂。\n\n规格：200片，适合纯素食者，不含人工香料。"
             },
             {
                 name: "Cancer Council 防晒霜",
-                filename: "178b32bf12bd032121f73c7ff434296.jpg",
+                filename: "178b32bf12bd032121f73c7ff434296.png",
                 title: "Cancer Council 日用保湿防晒霜 SPF50+",
                 desc: "【哑光妆效 敏感肌适用】\n\n提供 SPF50+ UVA/UVB 广谱防护，防止衰老迹象。\n\n特点：\n• 质地超轻盈，不油腻，哑光妆效\n• 专为敏感肌设计，富含芦荟和维生素E\n• 澳大利亚制造，癌症协会认证\n\n规格：150毫升管装，适用于面部及身体。"
             },
             {
                 name: "Teddi Lab 玫瑰铁软糖",
-                filename: "c54c40cbc4c8cb4d9eea888979bd241.jpg",
+                filename: "c54c40cbc4c8cb4d9eea888979bd241.png",
                 title: "Teddi Lab 玫瑰铁软糖 (by Unichi)",
                 desc: "【美味补铁新方式】\n\n含有 12毫克 高吸收率配方铁，添加维生素C、针叶樱桃和玫瑰提取物。\n\n功效：\n• 缓解疲劳\n• 维持免疫系统健康\n• 改善肤色\n\n特点：不易引起便秘，温和不刺激。玫瑰椰枣口味。\n规格：60粒/瓶。"
             },
             {
                 name: "Blackmores 无味鱼油 1000",
-                filename: "ce13c0fe2a33c96ebf7821b9ee96eb6.jpg",
+                filename: "ce13c0fe2a33c96ebf7821b9ee96eb6.png",
                 title: "Blackmores Fish Oil 1000 无味鱼油",
                 desc: "【提供天然 Omega-3】\n\n每粒含有 300毫克 Omega-3。\n\n功效：\n• 维护心脏、皮肤、眼睛和大脑健康\n• 促进认知功能及整体健康\n\n特点：无味配方，不含人工色素，不含汞/二恶英。适合每周吃鱼不足的人士。\n规格：400粒/瓶。"
             },
             {
                 name: "Ensure 营养粉",
-                filename: "a3c9dff0cf3bd96a97d36e8bc31bd7d.jpg",
+                filename: "a3c9dff0cf3bd96a97d36e8bc31bd7d.png",
                 title: "Ensure 营养粉 (香草味)",
                 desc: "【全面营养补充剂】\n\n含有 28种必需维生素和矿物质，以及三重优质蛋白复合物。\n\n功效：\n• 支持免疫系统健康（含维生素C、E、锌、硒）\n• 增强体力，维持肌肉强健\n\n适用：营养不良、病后康复、食欲不振人群。低乳糖、无麸质。"
             },
             {
                 name: "Swisse 钙片+维生素D",
-                filename: "45f998ce2bc61476d40a3b79cdbb19a.jpg",
+                filename: "45f998ce2bc61476d40a3b79cdbb19a.png",
                 title: "Swisse Ultiboost 钙片 + 维生素D",
                 desc: "【骨骼与肌肉健康】\n\n有助于维持牙齿和骨骼强健，支持骨密度，预防骨质疏松。\n\n特点：\n• 含有天然来源维生素D3，促进钙吸收\n• 适合老年人、更年期女性、孕妇等钙需求增加人群\n\n规格：150片/瓶。"
             },
             {
                 name: "a2 Milk® 脱脂奶粉",
-                filename: "15f88894ef1ce4b054530ef6e3ea9a3.jpg",
+                filename: "15f88894ef1ce4b054530ef6e3ea9a3.png",
                 title: "a2 Milk® 高级脱脂速溶奶粉 (Skim)",
                 desc: "【感受不同 Feel the Difference】\n\n完整保留天然 a2 Milk® 营养。\n\n特点：\n• 高钙、天然蛋白质\n• 1公斤可冲泡7升牛奶\n• 不含防腐剂、色素、香精、人工生长激素\n\n适合追求纯净健康营养的人群。"
             },
             // === 新增产品 ===
             {
                 name: "Swisse 卵磷脂 1200mg",
-                filename: "f4aa7145321d6c0f07d666761a9710c.jpg",
+                filename: "f4aa7145321d6c0f07d666761a9710c.png",
                 title: "Swisse Ultiboost 卵磷脂 (Lecithin 1200mg)",
                 desc: "【肝脏健康与脂肪代谢支持】\n\n每粒胶囊含有 1200mg (1.2克) 源自大豆的卵磷脂。\n\n主要功效：\n• 维护肝脏健康：富含胆碱，是维持肝脏健康的关键营养素。\n• 促进脂肪代谢：健康的理想补充。\n• 细胞健康：磷脂是细胞膜的重要组成部分。\n\n规格：300粒软胶囊，不含人工香料或色素。"
             },
             {
                 name: "Swisse 高浓度蜂胶",
-                filename: "dc2aebfa5d042460a29bbdbe9817056.jpg",
+                filename: "dc2aebfa5d042460a29bbdbe9817056.png",
                 title: "Swisse Ultiboost 高浓度蜂胶 (2000mg)",
                 desc: "【强效抗氧化支持】\n\n每粒含有 2000mg (2克) 高浓度蜂胶提取物。\n\n主要功效：\n• 减少体内自由基生成：提供强大的抗氧化支持。\n• 促进整体健康和幸福感。\n• 维护日常健康，增强免疫力。\n\n规格：300粒软胶囊 (每日一粒)，不含人工香料。"
             },
             {
                 name: "PediaSure 儿童营养粉",
-                filename: "660b2fcd2fb14e0a208325311573a03.jpg",
+                filename: "660b2fcd2fb14e0a208325311573a03.png",
                 title: "PediaSure 儿童营养粉 (香草味)",
                 desc: "【全球排名第一 全面均衡营养】\n\n专为 1-10岁 有营养风险的儿童设计 (生长发育低于平均水平、食欲不振等)。\n\n特点：\n• 三重蛋白复合物：乳清蛋白+酪蛋白+大豆蛋白。\n• 含有28种必需维生素和矿物质 (含DHA、精氨酸、钙、维生素D)。\n• 支持骨骼肌肉发育、肠道健康和免疫力。\n• 新配方减糖25%，低乳糖，无麸质。\n\n规格：850克/罐。"
             },
             {
                 name: "DU'IT 强韧护手霜",
-                filename: "6792b964782573c6ef8af5329b8bfe1.jpg",
+                filename: "6792b964782573c6ef8af5329b8bfe1.png",
                 title: "DU'IT 强韧护手霜 (Tough Hands)",
                 desc: "【澳洲第一护手霜品牌 1天见效】\n\n专为极度干燥、粗糙、皲裂和老茧的双手设计。\n\n主要成分与功效：\n• 10%尿素：恢复水分平衡，密封皲裂。\n• 维生素E & AHA：促进愈合，温和去角质。\n• 柠檬香桃木 & 茶树：天然抗菌。\n\n特点：不油腻，快速吸收。适合技工、医护人员等辛勤劳作者。150克装。"
             },
             {
                 name: "Real Paw Paw 木瓜膏",
-                filename: "e6dc15026686765b66064c8098bd5ad.jpg",
+                filename: "e6dc15026686765b66064c8098bd5ad.png",
                 title: "Real Paw Paw 木瓜膏 (舒缓修护)",
                 desc: "【居家旅行必备万用膏】\n\n含有高浓度发酵木瓜提取物 (80mg/g) 和有机认证的金盏花浸泡油。\n\n适用范围：\n• 嘴唇干裂、皮肤粗糙。\n• 轻微割伤、晒伤、昆虫叮咬。\n• 缓解皮肤干燥皲裂。\n\n规格：25克便携装，温和呵护敏感肌肤。"
             },
             {
                 name: "Maxigenes 蓝莓咀嚼奶",
-                filename: "eaef13cc2da99fd78377cebf9a62c1d.jpg",
+                filename: "eaef13cc2da99fd78377cebf9a62c1d.png",
                 title: "Maxigenes 蓝莓味咀嚼牛奶",
                 desc: "【健康美味 随时随地】\n\n采用优质真牛奶制成，添加天然蓝莓，无需冷藏，方便携带。\n\n特点：\n• 无人工色素、无防腐剂、无麸质。\n• 帮助滋养孩子身体，促进健康发育。\n• 适合1岁以上儿童、孕妇及成人。\n\n规格：150片咀嚼片/罐。"
             },
             {
                 name: "Swisse 高强度磷虾油",
-                filename: "de1af8226ffc60256989767243bd296.jpg",
+                filename: "de1af8226ffc60256989767243bd296.png",
                 title: "Swisse Ultiboost 高强度磷虾油 (Krill Oil)",
                 desc: "【Omega-3 关节与心脏健康】\n\n采用可持续来源的南极磷虾油，以磷脂形式存在，更易被人体吸收。\n\n主要功效：\n• 缓解轻度至中度骨关节炎引起的膝关节疼痛和僵硬。\n• 支持心血管健康，维护心脏、大脑和眼睛功能。\n• 富含天然虾青素 (强效抗氧化剂)。\n\n规格：60粒软胶囊，每粒含210mg EPA和100mg DHA。"
             },
             {
                 name: "Swisse 辅酶Q10",
-                filename: "ea71a2b844a5e397828dd668ba851fc.jpg",
+                filename: "ea71a2b844a5e397828dd668ba851fc.png",
                 title: "Swisse Ultiboost 辅酶Q10 (150mg)",
                 desc: "【心脏健康与能量支持】\n\n每粒含有 150毫克 辅酶Q10 (Co-Enzyme Q10)。\n\n主要功效：\n• 支持心血管系统健康，维护心脏正常功能。\n• 对能量产生至关重要。\n• 强大的抗氧化支持，减少体内自由基生成。\n\n规格：180粒软胶囊 (每日一粒)，成人日常补充的理想选择。"
             }
@@ -291,7 +291,7 @@
         }
 
         // 生成菜单
-        menuList.innerHTML = ''; // 清空可能存在的旧内容
+        menuList.innerHTML = '';
         products.forEach((product, index) => {
             const li = document.createElement('li');
             li.className = 'menu-item';
